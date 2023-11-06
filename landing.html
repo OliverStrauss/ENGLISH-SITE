@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+    <style>
+        body {
+            background-color: rgb(192, 182, 142);
+            font-family: "Roboto", sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: left;
+            padding: 20px;
+            background-color: white;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        a{
+            color: rgb(66, 157, 222);
+        }
+        
+
+
+        img {
+            max-width: 20%;
+            height: 150px;
+            margin-right: 10px; /* Add margin between images */
+        }
+        .img1 {
+            max-width: 10%;
+            height: 100px;
+            float: right; /* Add margin between images */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Science A</h1>
+        <p>Welcome to my portfolio showcasing projects from my computer science class.</p>
+    </header>
+    <hr>
+
+    <header>
+        <div class="image-container">
+            <img src="pics/Me.jpeg" alt="">
+            <img src="pics/me1.jpeg" alt="">
+            <img src="pics/me2.jpeg" alt="">
+            <!-- Add more images as needed -->
+        </div>
+        <p>This website was created by me, Oliver Strauss, to showcase some projects completed and content covered in my high school Computer Science A class. This class was extremely important to me as it helped me find a passion for programming I didn’t realize I had.</p>
+        <p>Contact: oliverstrauss756@iastate.edu</p>
+        <!-- Add any other contact information or social media links -->
+    
+    </header>
+    <hr>
+
+    <nav>
+        <p>A compiler is needed to run any code their are many to use, but i prefer Microsofts compiler Visual Studio Code or VsCode for short.Click 
+        <a href="https://code.visualstudio.com/">here </a>to download the most recent version</p>
+        <p>Here are some of the resources I often use while programming with Java <img src="pics/vscode.jpeg" alt="" class="img1"></p>
+        <li><a href="https://stackoverflow.com/questions"> Stackoverflow for debugging</a></li>
+        <li><a href="https://chat.openai.com/"> Chat GPT for debugging</a></li>
+        <li><a href="https://www.w3schools.com/"> w3 Schools for any syntax questions</a></li>
+    </nav>
+
+    <hr>
+
+    <nav>
+        <p>Here are examples of small-scale projects we completed in the Computer Science A</p>
+            <li><a href="RoadTrip.html">Road Trip distance Calculator</a></li>
+            <li><a href="tictactoe.html">Tic Tac Toe game</a></li>
+            <li><a href="Anagram.html">Anagram string generator</a></li>
+            <li><a href="string.html">String modifier</a></li>
+
+        </nav>
+</body>
+</html>
